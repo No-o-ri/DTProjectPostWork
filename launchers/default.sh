@@ -13,7 +13,7 @@ dt-launchfile-init
 # NOTE: Use `dt-exec COMMAND` to run the main process (blocking process)
 
 # launching app
-dt-exec python3 ./packages/lane_follower_node.py _autostart:=true
+dt-exec python3 ./packages/lane_follow.py _autostart:=true
 
 
 # ----------------------------------------------------------------------------
